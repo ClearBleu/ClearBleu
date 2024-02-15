@@ -1,4 +1,4 @@
-# This is the website for the ClearBleu webpage
+# Welcome to my GitHub! If you have any questions about my repositories or related works, feel free to contact me on LinkedIn or GitHub.
 
-# An email contact form is provided that will alert me if the form is filled out and will send me the information provided. 
+# I'm always open for collaboration or feedback. All are welcome here!
 
