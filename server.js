@@ -4,11 +4,15 @@ import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 
 //DO NOT FORGET TO ADD .ENV FILE TO GIT IGNORE!!!
+
+
 //configure .env file so email username and password can be used to access email account
 dotenv.config();
 const emailUsername = process.env.EMAIL_USERNAME;
 const emailPassword = process.env.EMAIL_PASSWORD;
 
+//TODO: Add Portfolio route with a projects page
+//TODO: Add a page for blog to t alk about various topics
 
 const app = express();
 const port = 3000;
