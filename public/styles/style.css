@@ -1,0 +1,138 @@
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #2E4374, #96B6C5, #CEE6F3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+h1, .fs-4, .under-header, .footer{
+    font-family: 'Alice', serif !important;
+}
+
+h2, h3, p, .declaration, .col, .list-unstyled, .contact-font{
+    font-family: 'PT Serif', serif;
+}
+
+.py-3 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
+.my-3 {
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+}
+
+.circle{
+  border-radius: 50%;
+  height: 140px;
+  width: 140px
+}
+
+.banner{
+  background-image: url(/images/geo.jpg) ;
+  background-size: contain;
+  margin-bottom: 15px;
+}
+
+.contact{
+  margin: 50px;
+  background-color:#CEE6F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boxes{
+  box-shadow:#2E4374 10px 10px 10px 10px;
+}
+
+.contact-banner{
+  background-color:azure;
+  box-shadow: #2E4374 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-direction: row;
+  max-width: fit-content;
+  margin: auto;
+}
+
+#contact-submit{
+  display: flex;
+  justify-content: center;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+.animated {
+  -webkit-animation-duration: 10s;
+  animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+.text-box {
+  border-radius: 8px;
+  border-color:#96B6C5; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea{
+  resize: none
+}
+
+.art{
+  background-image: url("/public/images/marble.png");
+}
