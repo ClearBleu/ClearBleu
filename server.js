@@ -25,14 +25,6 @@ app.get("/services", (req, res) =>{
     res.render("services.ejs")
 })
 
-app.get("/pricing", (req, res) =>{
-    res.render("pricing.ejs")
-})
-
-app.get("/faqs", (req, res) =>{
-    res.render("faqs.ejs")
-})
-
 app.get("/contact", (req, res) =>{
     res.render("contact.ejs")
 })
