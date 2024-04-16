@@ -136,3 +136,7 @@ textarea{
 .art{
   background-image: url("/public/images/marble.png");
 }
+
+p{
+  font-size: 18px;
+}
