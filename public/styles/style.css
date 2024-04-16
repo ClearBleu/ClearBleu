@@ -5,7 +5,7 @@
 .gradient-background {
     background: linear-gradient(300deg, #2E4374, #96B6C5, #CEE6F3);
     background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+    animation: gradient-animation 5s ease infinite;
   }
   
 @keyframes gradient-animation {
@@ -45,8 +45,8 @@ h2, h3, p, .declaration, .col, .list-unstyled, .contact-font{
 }
 
 .banner{
-  background-image: url(/images/geo.jpg) ;
-  background-size: contain;
+  background-image: url(/images/geo.webp) ;
+  background-size:cover;
   margin-bottom: 15px;
 }
 
