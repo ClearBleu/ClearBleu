@@ -130,7 +130,7 @@ h2, h3, p, .declaration, .col, .list-unstyled, .contact-font{
 }
 
 textarea{
-  resize: none
+  resize:none;
 }
 
 .art{
@@ -148,4 +148,8 @@ p{
 .carousel-item img{
   height: 100%;
   width: 100%;
+}
+
+#contact-form{
+  margin: 50px;
 }

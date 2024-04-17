@@ -8,7 +8,7 @@
           
             <h2><u>Contact Us</u></h2>
             
-            <form action="/submit-form" method="post" class="text-box" id="contactForm"> <!--needs actions built in to send a message to my email with client info and message-->
+              <form action="/submit-form" method="post" class="text-box" id="contactForm"> 
               <% if (locals.sent) { %>
                <p>Email sent successfully!</p>
              <%} else { %>
@@ -16,21 +16,22 @@
             <% }; %>
 
             <!--Enter name-->
-            <input placeholder="Name:" class="text-box mb-4" name="name" id="name" size="20" required minlength="2" maxlength="64"/>
+            <input autofocus placeholder="Name:" class="text-box mb-4" name="name" id="name" size="20" required minlength="2" maxlength="64"/>
             
             <!--Enter email-->
             <input placeholder="Enter Email:" class="text-box mb-4" type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="20" required minlength="3" maxlength="64"/>
             
             <!--enter phone #-->
-            <input placeholder="Phone Number:" class="text-box mb-4" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            <input placeholder="Phone Number:" class="text-box mb-4" type="tel" id="phone" name="phone" pattern="[0-9]{10}" required />
             
             <!--Message field-->
-            <textarea placeholder="Message:" class="text-box mb-4" type="text" rows="10" name="message" cols="40" ></textarea>
+            <textarea placeholder="Message:" class="text-box mb-4" type="text"  name="message"  ></textarea>
             
             <!--Submit email message button-->
             <button class="btn btn-lg btn-primary" type="submit" id="submit" >Submit</button> 
 
             </form>
+            
           </div>
 
           <!--Button banner-->
